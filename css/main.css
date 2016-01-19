@@ -21,3 +21,24 @@ html {
     font-size: 100%;
 }
 
+.tabs {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.tabs > li {
+  display: inline-block;
+  list-style-type: none; 
+}
+
+.tabs a {
+  display: block;
+  background-color: darkslategrey;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+
