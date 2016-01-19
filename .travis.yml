@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "node"
+
+after_success:
+  - npm run submit-grade
+
+notifications:
+  email: false
+
+branches:
+  only:
+    - gh-pages
+
+cache:
+  directories:
+    - node_modules
