@@ -45,4 +45,12 @@ html {
   background-color: deeppink;
 }
 
+.panel {
+  display: none;
+  }
   
+.panel:target {
+    display: block; 
+  }
+  
+
